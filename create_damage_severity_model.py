@@ -23,11 +23,11 @@ def get_transforms():
 
 # 创建数据集
 train_dataset = datasets.ImageFolder(
-    "/home/lixinjian/deep-project/cteate-Dataset/datasets/medic/train",
+    "/home/lixinjian/deep-project/cteate-Dataset/datasets/damage_serverity/train",
     transform=get_transforms()
 )
 val_dataset = datasets.ImageFolder(
-    "/home/lixinjian/deep-project/cteate-Dataset/datasets/medic/val",
+    "/home/lixinjian/deep-project/cteate-Dataset/datasets/damage_serverity/val",
     transform=get_transforms()
 )
 
